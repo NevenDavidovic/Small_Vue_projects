@@ -17,11 +17,13 @@
           v-model="enteredValue"
           placeholder="Enter your next task..."
         />
-        <button class="button" v-on:click="addGoal">Add Task</button>
+        <button class="button" v-on:click="addGoal">Add Task</button><br />
       </div>
 
       <div>
+        <button id="export-btn" @click="exportToTxt">Export to Text</button>
         <h2 align="center">Tasks:</h2>
+
         <ol>
           <li v-for="goal in goals">{{ goal }}</li>
         </ol>
