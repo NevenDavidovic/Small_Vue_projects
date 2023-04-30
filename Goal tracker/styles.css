@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+.header {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#user-goal {
+  background-color: #8bc34a;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 50px;
+  max-width: 500px;
+}
+
+#user-goal h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+#user-goal p {
+  font-size: 24px;
+  background-color: #519735;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+.hr {
+  height: 5px;
+  color: gray;
+  background-color: gray;
+  border: 0;
+}

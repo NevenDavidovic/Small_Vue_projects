@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>Goal tracker</title>
+  </head>
+  <body>
+    <header class="header">Vue Course Goals</header>
+
+    <section id="user-goal">
+      <h2>My Course Goal</h2>
+      <hr class="hr" />
+      <p>{{ courseGoal }}</p>
+      <p>Learn more <a v-bind:href="vueLink"> About Vue</a></p>
+      <p>Random motivational saying: {{outputGoal()}}</p>
+      <!-- v-html you can use if you are passing the method or 
+        an object and you want it to be interpreted it as html
+    FOR EXAMPLE: <h2 v-html="outputGoal()"> </h2>
+    --></section>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

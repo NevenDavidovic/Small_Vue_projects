@@ -1,0 +1,92 @@
+/* Body styles */
+body {
+  background-color: #282c34;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Section styles */
+#events {
+  margin: 50px auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+  color: #282c34;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #282c34;
+  color: #61dafb;
+}
+
+p {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 480px) {
+  h2 {
+    font-size: 24px;
+  }
+
+  button {
+    font-size: 16px;
+    padding: 5px 10px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+#text {
+  margin: 50px auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+input[type="text"] {
+  background-color: #8795b3;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+p {
+  font-size: 24px;
+  margin-top: 30px;
+}
